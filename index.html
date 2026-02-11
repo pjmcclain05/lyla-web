@@ -2,11 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Lyla – Smarter Glucose Insights for Type 1 Diabetes</title>
+    <title>
+      Lyla Biosciences – Beta on TestFlight | Smarter Glucose Insights for Type
+      1
+    </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Lyla helps people living with Type 1 Diabetes understand how daily life, activity, and habits impact blood sugar using CGM and PPG data."
+      content="Lyla Biosciences helps people with Type 1 Diabetes understand how daily life, activity, and habits impact blood sugar. CGM + PPG data. Download the beta on TestFlight."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -14,19 +17,13 @@
   <body>
     <!-- HEADER -->
     <header class="header" role="banner">
-      <div class="logo">
-        <span class="logo-mark">L</span>
+      <a href="#" class="logo" aria-label="Lyla home">
+        <img src="assets/lyla-logo.png" alt="" class="logo-img" />
         <span class="logo-text">Lyla</span>
-      </div>
+      </a>
 
-      <nav class="nav-links">
-        <a href="#why-lyla">Why</a>
-        <a href="#what-is-lyla">What is Lyla</a>
-        <a href="#features">Features</a>
-      </nav>
-
-      <a href="#waitlist" class="btn btn-primary small-only">
-        Become a Beta Tester
+      <a href="thank-you.html" class="btn btn-primary header-cta">
+        Download on TestFlight
       </a>
     </header>
 
@@ -34,162 +31,138 @@
       <!-- HERO -->
       <section class="hero">
         <div class="hero-content">
-          <p class="eyebrow">For people living with Type 1 Diabetes</p>
-          <h1>See what’s really driving your blood sugar.</h1>
-          <p class="hero-subtitle">
-            Lyla combines continuous glucose monitoring (CGM) with pulse and
-            activity data (PPG) to show how food, insulin, sleep, stress, and
-            movement affect your numbers in real life, not just on paper.
-          </p>
-
-          <div class="hero-actions">
-            <a href="#why-lyla" class="btn btn-ghost"> Why Lyla? </a>
+          <div class="hero-title-box">
+            <p class="eyebrow">For Active people living with Diabetes</p>
+            <h1>Smarter glucose insights for life with Diabetes.</h1>
           </div>
-
-          <div class="hero-tags">
-            <span class="tag">Built for Type 1</span>
-            <span class="tag">CGM + PPG data</span>
-            <span class="tag">Daily-life insights</span>
+          <div class="hero-body-box">
+            <p class="hero-subtitle">
+              Lyla is building a new layer of insight for continuous glucose
+              monitoring. By pairing CGM data with heart rate and activity
+              information from Apple Health, Lyla helps users better understand
+              how daily movement, workouts, stress, and routines may relate to
+              changes in blood glucose. Our mission is to make glucose data more
+              meaningful and transform isolated readings into clear patterns
+              that support confidence and informed decision-making. We believe
+              better insight leads to better understanding, and better
+              understanding leads to better outcomes.
+            </p>
+            <div class="hero-actions">
+              <a href="thank-you.html" class="btn btn-primary">
+                Download on TestFlight
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="phone-mockup">
+            <img
+              src="assets/lyla-app-glucose-dashboard.png"
+              alt="Lyla app: See your glucose clearly with current glucose, graph, and activity."
+            />
           </div>
         </div>
       </section>
 
-      <!-- WHY LYLA -->
-      <section id="why-lyla" class="section">
-        <div class="section-header">
-          <h2>Why Lyla?</h2>
+      <!-- APP FEATURES (each screenshot used once: hero = glucose, strip = other 4) -->
+      <section id="features" class="section section-features">
+        <div class="section-header section-header-center">
+          <h2>What the app provides</h2>
           <p>
-            Traditional CGM apps show numbers and alarms. Lyla focuses on
-            patterns, context, and what you can actually do about it.
+            See your glucose clearly, understand time in range, and connect
+            heart rate with glucose. Log workouts and see their impact, with
+            smarter insights every day—all in one place.
           </p>
         </div>
 
-        <div class="grid-2">
-          <div class="card feature-card">
-            <h3>People with T1D deserve better tools.</h3>
-            <p>
-              Hospital visits, scary lows and unexplained highs are often
-              treated as random. But your data usually has a story. Lyla pulls
-              together glucose, pulse, and activity to help you see what’s
-              really going on.
-            </p>
+        <div class="screenshot-strip">
+          <div class="phone-mockup phone-mockup-strip">
+            <img src="assets/lyla-app-time-in-range.png" alt="Time in range." />
           </div>
-
-          <div class="card feature-card">
-            <h3>We believe you’re not the problem.</h3>
-            <p>
-              Our experience suggests many people with Type 1 know what they
-              “should” do, they just don’t have technology that makes it easy to
-              understand how daily choices impact blood sugar. Lyla is designed
-              to close that gap.
-            </p>
+          <div class="phone-mockup phone-mockup-strip">
+            <img
+              src="assets/lyla-app-workout-impact.png"
+              alt="Workout impact."
+            />
+          </div>
+          <div class="phone-mockup phone-mockup-strip">
+            <img
+              src="assets/lyla-app-heart-rate-glucose.png"
+              alt="Heart rate and glucose."
+            />
+          </div>
+          <div class="phone-mockup phone-mockup-strip">
+            <img src="assets/lyla-app-insights.png" alt="Smarter insights." />
           </div>
         </div>
       </section>
 
-      <!-- WHAT IS LYLA -->
-      <section id="what-is-lyla" class="section">
-        <div class="section-header">
-          <h2>What is Lyla?</h2>
-          <p>
-            Lyla is a software layer built on top of your existing devices,
-            designed to turn raw data into clear, human-readable insights.
+      <!-- TRUST: MIT SANDBOX -->
+      <section class="section section-trust">
+        <div class="trust-inner">
+          <p class="trust-text">
+            Backed by MIT Sandbox Innovation Fund Program
           </p>
-        </div>
-
-        <div class="grid-2">
-          <div class="card feature-card">
-            <h3>More than a graph of your glucose.</h3>
-            <p>
-              Lyla blends CGM data with PPG signals (like pulse and movement) to
-              understand when you’re eating, resting, moving, or under stress
-              and how those states change your blood sugar.
-            </p>
-          </div>
-
-          <div class="card feature-card">
-            <h3>From reactive to proactive.</h3>
-            <p>
-              Instead of only reacting to alarms, Lyla helps you spot consistent
-              patterns: “I always rise after this breakfast,” or “I tend to drop
-              overnight after this dose” and gives you suggestions you can test
-              and refine over time.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- FEATURES (your bullets, cleaned up) -->
-      <section id="features" class="section">
-        <div class="section-header">
-          <h2>What Lyla can help you see.</h2>
-          <p>
-            Whether you’re at school, at work, hanging out, or training, Lyla is
-            built for everyday life with Type 1.
-          </p>
-        </div>
-
-        <div class="grid-3">
-          <div class="card feature-card">
-            <h3>Continuous glucose monitoring</h3>
-            <p>
-              Connect to your CGM to see trends, not just single readings, with
-              context about what else was happening at the time.
-            </p>
-          </div>
-
-          <div class="card feature-card">
-            <h3>PPG and activity monitoring</h3>
-            <p>
-              Use pulse and movement data to understand how walking, workouts,
-              sleep, and stress influence your blood sugar.
-            </p>
-          </div>
-
-          <div class="card feature-card">
-            <h3>Integrated insights</h3>
-            <p>
-              See glucose, habits, and daily rhythms in one place so you can
-              build strategies that are realistic for your life, not just for a
-              perfect day.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- WAITLIST / BETA TESTER -->
-      <section id="waitlist" class="section cta-section">
-        <div class="cta-card">
-          <h2>Help shape Lyla from the start.</h2>
-          <p>
-            We’re looking for people with Type 1 who want to experiment with
-            their data, share feedback, and help us build something genuinely
-            useful.
-          </p>
-
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSds6Ajph2X9FS9smR6yH4KNgSEqH5wZ8gIMl5pY8KAJNZBZUg/viewform?usp=header"
+            href="https://sandbox.mit.edu"
             target="_blank"
-            class="btn btn-primaryOnBlue"
+            rel="noopener"
+            class="trust-logo-link"
+            aria-label="MIT Sandbox"
           >
-            Become a beta tester
+            <img
+              src="assets/mit-sandbox-logo.png"
+              alt="MIT Sandbox Innovation Fund Program"
+              class="trust-logo"
+            />
           </a>
-
-          <p class="tiny-note">
-            You’ll get occasional emails about early versions, studies, and
-            opportunities to try new features. No spam.
-          </p>
         </div>
       </section>
 
+      <!-- TEAM -->
+      <section id="team" class="section section-team">
+        <div class="section-header section-header-center">
+          <h2>Meet the Team</h2>
+          <p>The founders behind Lyla Biosciences.</p>
+        </div>
+        <div class="grid-2 team-grid">
+          <div class="card team-card">
+            <img
+              src="assets/ParkerHeadshot.png"
+              alt="Parker McClain"
+              class="team-photo"
+            />
+            <h3 class="team-name">Parker McClain</h3>
+            <p class="team-bio">MIT Chemical Engineering</p>
+          </div>
+          <div class="card team-card">
+            <img src="assets/JohnHeadshot.svg" alt="John" class="team-photo" />
+            <h3 class="team-name">John Spivey</h3>
+            <p class="team-bio">MIT Computer Science</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- DOWNLOAD CTA -->
+      <section id="download" class="section cta-section">
+        <div class="cta-card">
+          <h2>Try Lyla on TestFlight</h2>
+          <p>Download the beta and help us build something amazing.</p>
+          <a href="thank-you.html" class="btn btn-primaryOnBlue">
+            Download on TestFlight
+          </a>
+        </div>
+      </section>
+
+      <!-- MAILING LIST -->
       <section id="mailingList" class="section cta-section">
         <div class="card card-center">
           <h3>Stay Connected</h3>
-          <p>Click here to sign up and receive updates from Lyla CGM.</p>
-
+          <p>Sign up to receive updates from Lyla Biosciences.</p>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSds6Ajph2X9FS9smR6yH4KNgSEqH5wZ8gIMl5pY8KAJNZBZUg/viewform?usp=header"
             target="_blank"
+            rel="noopener"
             class="btn btn-ghost"
           >
             Join the Mailing List
@@ -201,9 +174,25 @@
     <!-- FOOTER -->
     <footer class="footer">
       <div class="footer-inner">
-        <span class="footer-logo">Lyla</span>
+        <span class="footer-logo">Lyla Biosciences</span>
+        <div class="footer-links">
+          <a href="thank-you.html">Download on TestFlight</a>
+          <a
+            href="https://sandbox.mit.edu"
+            target="_blank"
+            rel="noopener"
+            class="footer-sandbox"
+          >
+            <img
+              src="assets/mit-sandbox-logo.png"
+              alt="MIT Sandbox"
+              class="footer-sandbox-logo"
+            />
+          </a>
+        </div>
         <span class="footer-text">
-          &copy; <span id="year"></span> Lyla. This is not medical advice.
+          &copy; <span id="year"></span> Lyla Biosciences. This is not medical
+          advice.
         </span>
       </div>
     </footer>

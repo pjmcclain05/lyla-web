@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thank you – Lyla Biosciences</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page-thank-you">
+    <header class="header" role="banner">
+      <a href="index.html" class="logo" aria-label="Lyla home">
+        <img src="assets/lyla-logo.png" alt="" class="logo-img" />
+        <span class="logo-text">Lyla</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="section cta-section">
+        <div class="card card-center thank-you-card">
+          <h2>Thank you for your interest</h2>
+          <p>Lyla will be live on TestFlight in the next few days.</p>
+          <div class="thank-you-actions">
+            <a href="index.html" class="btn btn-ghost">Back to home</a>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSds6Ajph2X9FS9smR6yH4KNgSEqH5wZ8gIMl5pY8KAJNZBZUg/viewform?usp=header"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-primary"
+            >
+              Join the Mailing List
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <span class="footer-logo">Lyla Biosciences</span>
+        <span class="footer-text">
+          &copy; <span id="year"></span> Lyla Biosciences. This is not medical advice.
+        </span>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
