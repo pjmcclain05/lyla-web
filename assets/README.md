@@ -12,6 +12,6 @@ Image files used on the Lyla Biosciences landing page:
 | `lyla-app-insights.png` | App screenshot: insights ("Smarter Insights, Every Day") |
 | `mit-sandbox-logo.png` | MIT Sandbox Innovation Fund Program logo |
 | `ParkerHeadshot.svg` | Placeholder: replace with your headshot (e.g. `ParkerHeadshot.png`) and update the `img` src in `index.html` |
-| `JohnHeadshot.svg` | Placeholder: replace with co-founder headshot (e.g. `JohnHeadshot.png`) and update the `img` src in `index.html` |
+| `JohnSpivey.png` | John Spivey headshot (team) |
 
-**Replacing team headshots:** Add your photo as `ParkerHeadshot.png` (or `.jpg`) and your co-founder’s as `JohnHeadshot.png`. In `index.html`, change the team section `img` `src` from `assets/ParkerHeadshot.svg` to `assets/ParkerHeadshot.png` (and the same for John).
+**Replacing team headshots:** Add your photo as `ParkerHeadshot.png` (or `.jpg`) and your co-founder’s . Parker uses `ParkerHeadshot.png`, John uses `JohnSpivey.png`. Update the team section `img` `src` in `index.html` if you change filenames.
